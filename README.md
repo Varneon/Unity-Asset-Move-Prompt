@@ -1,4 +1,9 @@
-# Unity Asset Move Prompt
+<div>
+
+# Unity Asset Move Prompt [![GitHub Repo stars](https://img.shields.io/github/stars/Varneon/Unity-Asset-Move-Prompt?style=flat&label=Stars)](https://github.com/Varneon/Unity-Asset-Move-Prompt/stargazers) [![GitHub all releases](https://img.shields.io/github/downloads/Varneon/Unity-Asset-Move-Prompt/total?color=blue&label=Downloads&style=flat)](https://github.com/Varneon/Unity-Asset-Move-Prompt/releases) [![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/Varneon/Unity-Asset-Move-Prompt?color=blue&label=Release&sort=semver&style=flat)](https://github.com/Varneon/Unity-Asset-Move-Prompt/releases/latest)
+
+</div>
+
 Simple dialog for verifying user's intentions of moving assets inside Unity
 
 ![image](https://user-images.githubusercontent.com/26690821/193105152-6c8d654e-811e-459e-95f5-94b5f124a6c9.png)
