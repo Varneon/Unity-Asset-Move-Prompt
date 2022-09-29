@@ -1,5 +1,5 @@
-# Repository-Template-Unity
-Template repository for Unity
+# Unity Asset Move Prompt
+Simple dialog for verifying user's intentions of moving assets inside Unity
 
 <div align="center">
 
