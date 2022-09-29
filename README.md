@@ -1,6 +1,8 @@
 # Unity Asset Move Prompt
 Simple dialog for verifying user's intentions of moving assets inside Unity
 
+![image](https://user-images.githubusercontent.com/26690821/193105152-6c8d654e-811e-459e-95f5-94b5f124a6c9.png)
+
 <div align="center">
 
 ## Developed by Varneon with :hearts:
