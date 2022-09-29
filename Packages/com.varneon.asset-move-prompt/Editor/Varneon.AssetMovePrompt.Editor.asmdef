@@ -1,3 +1,15 @@
-﻿{
-	"name": "Varneon.AssetMovePrompt.Editor"
+{
+    "name": "Varneon.AssetMovePrompt.Editor",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
