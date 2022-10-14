@@ -24,7 +24,7 @@ namespace Varneon.AssetMovePrompt
             // If the file is being renamed in the same folder, bypass the prompt
             if (Path.GetDirectoryName(sourcePath).Equals(Path.GetDirectoryName(destinationPath))) { return AssetMoveResult.DidNotMove; }
 
-            // If this method gets invoked withing the time window, return the cached result
+            // If this method gets invoked within the time window, return the cached result
             if(DateTime.Now < modificationTimeWindow) { return moveResult; }
 
             // Check if the user intended to move the assets
