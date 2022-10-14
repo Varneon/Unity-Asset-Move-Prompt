@@ -1,6 +1,6 @@
 {
   "name": "com.varneon.asset-move-prompt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple dialog for verifying user's intentions of moving assets inside Unity",
   "displayName": "Asset Move Prompt",
   "author": {
