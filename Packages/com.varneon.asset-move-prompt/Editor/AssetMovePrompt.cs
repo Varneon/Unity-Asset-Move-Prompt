@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using UnityEditor;
 
 namespace Varneon.AssetMovePrompt
@@ -20,6 +21,9 @@ namespace Varneon.AssetMovePrompt
 
         private static AssetMoveResult OnWillMoveAsset(string sourcePath, string destinationPath)
         {
+            // If the file is being renamed in the same folder, bypass the prompt
+            if (Path.GetDirectoryName(sourcePath).Equals(Path.GetDirectoryName(destinationPath))) { return AssetMoveResult.DidNotMove; }
+
             // If this method gets invoked withing the time window, return the cached result
             if(DateTime.Now < modificationTimeWindow) { return moveResult; }
 
