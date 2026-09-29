@@ -12,40 +12,28 @@ Simple dialog for verifying user's intentions of moving assets inside Unity
 > * *By default Unity doesn't ask you when you move assets, often resulting in accidentally moving assets to a different folder. This simple extension intercepts the asset modification event and allows the user to verify the action.*
 
 # Installation
+Choose an installation method from below that suits your needs best:
 
-<details><summary>
+### Import with [VRChat Creator Companion](https://vcc.docs.vrchat.com/vpm/)
+* https://vpm.varneon.com/
 
-### Import with [VRChat Creator Companion](https://vcc.docs.vrchat.com/vpm/packages#user-packages):</summary>
+### Import with [Unity Package Manager (git)](https://docs.unity3d.com/2022.3/Documentation/Manual/upm-ui-giturl.html)
+1. In the Unity Editor's toolbar, select `Window` > `Package Manager` > `[+]` > `Add package from git URL...` 
+2. Copy and paste the following link into the URL input field: <pre lang="md">https://github.com/Varneon/Unity-Asset-Move-Prompt.git?path=/Packages/com.varneon.asset-move-prompt</pre>
 
-> 1. Download `com.varneon.asset-move-prompt.zip` from [here](https://github.com/Varneon/Unity-Asset-Move-Prompt/releases/latest)
-> 2. Unpack the .zip somewhere
-> 3. In VRChat Creator Companion, navigate to `Settings` > `User Packages` > `Add`
-> 4. Navigate to the unpacked folder, `com.varneon.asset-move-prompt` and click `Select Folder`
-> 5. `Asset Move Prompt` should now be visible under `Local User Packages` in the project view in VRChat Creator Companion
-> 6. Click `Add`
+### Import from [Unitypackage](https://docs.unity3d.com/2019.4/Documentation/Manual/AssetPackagesImport.html)
+1. Download latest `com.varneon.asset-move-prompt.unitypackage` from [here](https://github.com/Varneon/Unity-Asset-Move-Prompt/releases/latest)
+2. Import the downloaded .unitypackage into your Unity project
 
-</details><details><summary>
-
-### Import with [Unity Package Manager (git)](https://docs.unity3d.com/2019.4/Documentation/Manual/upm-ui-giturl.html):</summary>
-
-> 1. In the Unity toolbar, select `Window` > `Package Manager` > `[+]` > `Add package from git URL...` 
-> 2. Paste the following link: `https://github.com/Varneon/Unity-Asset-Move-Prompt.git?path=/Packages/com.varneon.asset-move-prompt`
-
-</details><details><summary>
-
-### Import from [Unitypackage](https://docs.unity3d.com/2019.4/Documentation/Manual/AssetPackagesImport.html):</summary>
-
-> 1. Download latest `com.varneon.asset-move-prompt.unitypackage` from [here](https://github.com/Varneon/Unity-Asset-Move-Prompt/releases/latest)
-> 2. Import the downloaded .unitypackage into your Unity project
-
-</details>
+### Add the [AssetMovePrompt.cs](https://github.com/Varneon/Unity-Asset-Move-Prompt/blob/main/Packages/com.varneon.asset-move-prompt/Editor/AssetMovePrompt.cs) manually
+* If you want just the file without having to install the entire package, just copy the file from [here](https://github.com/Varneon/Unity-Asset-Move-Prompt/blob/main/Packages/com.varneon.asset-move-prompt/Editor/AssetMovePrompt.cs) and add it anywhere in your `Assets` directory under a folder called `Editor`
 
 <div align="center">
 
 ## Developed by Varneon with :hearts:
 
-![Twitter Follow](https://img.shields.io/twitter/follow/Varneon?color=%231c9cea&label=%40Varneon&logo=Twitter&style=for-the-badge)
-![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCKTxeXy7gyaxr-YA9qGWOYg?color=%23FF0000&label=Varneon&logo=YouTube&style=for-the-badge)
-![GitHub followers](https://img.shields.io/github/followers/Varneon?color=%23303030&label=Varneon&logo=GitHub&style=for-the-badge)
+[![Twitter Follow](https://img.shields.io/static/v1?style=for-the-badge&label=@Varneon&message=8.3K&color=1b9df0&logo=x)](https://x.com/Varneon)
+[![YouTube Channel Subscribers](https://img.shields.io/static/v1?style=for-the-badge&label=@Varneon&message=1.4K&color=%23FF0000&logo=YouTube)](https://www.youtube.com/Varneon)
+[![GitHub followers](https://img.shields.io/github/followers/Varneon?color=%23303030&label=Varneon&logo=GitHub&style=for-the-badge)](https://github.com/Varneon)
 
 </div>
